@@ -1,0 +1,172 @@
+PS D:\HTML> git -version 
+git : The term 'git' is not recognized as the name of a cmdlet, function, script    
+file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ git -version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundExce  
+   ption
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\HTML> git -version
+git : The term 'git' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ git -version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundExce  
+   ption
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\HTML> git -version
+git : The term 'git' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ git -version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundExce  
+   ption
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\HTML> git -version
+git : The term 'git' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ git -version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundExce  
+   ption
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\HTML>
+ *  History restored 
+
+PS D:\HTML> git -version
+unknown option: -version
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]  
+           <command> [<args>]
+PS D:\HTML> cd d:\HTML\Project1
+PS D:\HTML\Project1> git init
+Initialized empty Git repository in D:/HTML/Project1/.git/
+PS D:\HTML\Project1> https://github.com/VJ2193/Project1.git
+https://github.com/VJ2193/Project1.git : The term 
+'https://github.com/VJ2193/Project1.git' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a 
+path was included, verify that the path is correct and try again.
+At line:1 char:1
++ https://github.com/VJ2193/Project1.git
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (https://github.com/VJ2193/Project1.g  
+   it:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\HTML\Project1> git add .
+PS D:\HTML\Project1> git remote add origin https://github.com/YOUR-USERNAME/gadget-landing-page.git
+PS D:\HTML\Project1> git remote add origin https://github.com/VJ2193/Project1.git
+error: remote origin already exists.
+PS D:\HTML\Project1> PS D:\HTML\Project1> git add .
+Get-Process : A positional parameter cannot be found that accepts argument 'git'.
+At line:1 char:1
++ PS D:\HTML\Project1> git add .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingE  
+   xception
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Comm  
+   ands.GetProcessCommand
+
+PS D:\HTML\Project1> PS D:\HTML\Project1> git remote add origin https://github.com/YOUR-USERNAME/gadget-landing-page.git
+Get-Process : A positional parameter cannot be found that accepts argument 'git'.
+At line:1 char:1
++ PS D:\HTML\Project1> git remote add origin https://github.com/YOUR-US ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingE  
+   xception
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Comm  
+   ands.GetProcessCommand
+
+PS D:\HTML\Project1> PS D:\HTML\Project1> git remote add origin https://github.com/VJ2193/Project1.git
+Get-Process : A positional parameter cannot be found that accepts argument 'git'.
+At line:1 char:1
++ PS D:\HTML\Project1> git remote add origin https://github.com/VJ2193/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingE  
+   xception
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Comm  
+   ands.GetProcessCommand
+
+PS D:\HTML\Project1> error: remote origin already exists.
+error: : The term 'error:' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was   
+included, verify that the path is correct and try again.
+At line:1 char:1
++ error: remote origin already exists.
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (error::String) [], CommandNotFoundEx  
+   ception
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\HTML\Project1> PS D:\HTML\Project1> git remote remove origin
+Get-Process : A positional parameter cannot be found that accepts argument 'git'.
+At line:1 char:1
++ PS D:\HTML\Project1> git remote remove origin
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingE  
+   xception
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Comm  
+   ands.GetProcessCommand
+
+PS D:\HTML\Project1> git remote remove origin
+PS D:\HTML\Project1> git remote add origin https://github.com/VJ2193/Project1.git
+PS D:\HTML\Project1> git init
+Reinitialized existing Git repository in D:/HTML/Project1/.git/
+PS D:\HTML\Project1> git add .
+PS D:\HTML\Project1> git commit -m "Initial version with homepage, categories, and layout"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'vijay@LAPTOP-5TJS4PP1.(none)')      
+PS D:\HTML\Project1> git config --global user.email "vijay2012000kumar@gmail.com"
+PS D:\HTML\Project1> git config --global user.name "VJ2193"
+PS D:\HTML\Project1> git commit -m "Initial version with homepage, categories, and layout"
+[master (root-commit) 9bb8d17] Initial version with homepage, categories, and layout
+ 8 files changed, 188 insertions(+)
+ create mode 100644 R.png
+ create mode 100644 SW.png
+ create mode 100644 about.html
+ create mode 100644 categories.html
+ create mode 100644 contact.html
+ create mode 100644 im1.webp
+ create mode 100644 index.html
+ create mode 100644 tab.png
+PS D:\HTML\Project1> git tag v1.0
+PS D:\HTML\Project1> git branch -M main
+PS D:\HTML\Project1> git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 109.14 KiB | 10.91 MiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/VJ2193/Project1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS D:\HTML\Project1>
