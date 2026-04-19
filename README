@@ -1,0 +1,78 @@
+# Gadget Galaxy - HTML Project
+
+##  Project Overview
+
+Gadget Galaxy is a multi-page website built as part of my learning journey in HTML5.
+
+The project showcases different categories of gadgets such as laptops, smartphones, tablets, and more. It focuses primarily on building a **strong foundation in HTML structure and page linking**.
+
+---
+
+##  Objectives
+
+* Learn and implement HTML5 fundamentals
+* Understand multi-page website structure
+* Practice building a real-world project using only HTML initially
+* Gradually enhance the project using CSS3
+
+---
+
+## Technologies Used
+
+HTML5 – Core structure of the website
+CSS3 – (Added later for styling and layout)
+VS Code – Code editor
+Live Server – Real-time preview
+Git & GitHub – Version control
+
+---
+
+##  Project Structure
+
+```
+Project1/
+│── index.html
+│── categories.html
+│── laptops.html
+│── smartphones.html
+│── tablets.html
+│── smartwatch.html
+│── about.html
+│── contact.html
+│── style.css
+│── images/
+```
+
+---
+
+##  Features
+
+* Multi-page website with navigation
+* Separate pages for different gadget categories
+* Laptop brands showcase (Acer, Dell, Apple, Lenovo)
+* Clean and structured HTML layout
+* Progressive enhancement with CSS
+
+---
+
+## Version History
+
+v1.0 → Initial HTML structure
+v1.1 → Multi-page website completed using HTML
+v1.2 → Started applying CSS styling
+
+---
+
+##  Note
+
+This project was initially built using only HTML.
+At the early stage, I used an AI tool to assist with styling before formally learning CSS.
+Currently, I am revisiting and improving the styling based on my own understanding of CSS.
+
+
+## Author
+
+Vijay Kumar Prasad
+Aspiring Full Stack Developer
+
+
